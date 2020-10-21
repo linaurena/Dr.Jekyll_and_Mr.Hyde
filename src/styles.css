@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover-page{
+    height: 100vh;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/mobile-man.png?alt=media&token=74ce9441-003d-48a3-af42-cb10e5ba0d31);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (min-width:800px){
+
+    .cover-page{
+        height: 100vh;
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/Imagen%20de%20perfiles%20y%20sitio%20web.jpg?alt=media&token=db0d4221-15dc-45a5-87d6-ec1aa9b1627e);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+}
