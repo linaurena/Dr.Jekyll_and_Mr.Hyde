@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
 }
 
 .cover-page{
@@ -13,6 +14,38 @@
 }
 
 
+.trailer-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/hand_dark-v.png?alt=media&token=0db40cda-1f42-4325-b0ee-db1149fbfd8e);
+    background-size: cover;
+    background-position: center;
+}
+
+.youtube-video{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50vh;
+}
+
+.title-sec2{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 158px;
+    letter-spacing: 0.88em;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+@media screen and (min-width:425px){
+    .title-sec2{
+        font-size: 48px;
+        margin-left: 5%;
+    }
+}
 
 @media screen and (min-width:800px){
 
@@ -24,4 +57,18 @@
         background-size: auto;
     }
 
+
+    .trailer-section{
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/hand_dark.png?alt=media&token=0c09fb80-cdcf-41f0-9ae2-d1c3e1e36955);
+    }
+
+    .title-sec2{
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .title-sec2{
+        font-size: 108px;
+    }
 }
