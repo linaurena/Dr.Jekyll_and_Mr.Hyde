@@ -13,6 +13,7 @@
     background-size: cover;
 }
 
+
 .trailer-section{
     height: 100vh;
     display: flex;
@@ -55,6 +56,7 @@
         background-repeat: no-repeat;
         background-size: auto;
     }
+
 
     .trailer-section{
         background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/hand_dark.png?alt=media&token=0c09fb80-cdcf-41f0-9ae2-d1c3e1e36955);
