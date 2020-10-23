@@ -20,12 +20,12 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/hand_dark-v.png?alt=media&token=0db40cda-1f42-4325-b0ee-db1149fbfd8e);
     background-size: cover;
     background-position: center;
-    padding-top: 50vh;
+    padding-top: 10vh;
 }
 
 .max-width-iframe{
     max-width: 80vw;
-    padding-bottom: 20vh;
+    padding-bottom: 5vh;
     margin-left: 10vw;
 }
 
@@ -85,3 +85,21 @@
         font-size: 108px;
     }
 }
+
+@media screen and (min-width:1040px){
+    
+    .max-width-iframe{
+        max-width: 65vw;
+        margin-left: 15vw;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (min-width:1300px){
+    
+    .max-width-iframe{
+        max-width: 55vw;
+        margin-left: 22vw;
+    }
+}
+
