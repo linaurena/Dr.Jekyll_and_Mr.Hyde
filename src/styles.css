@@ -87,6 +87,26 @@
     max-width: 650px;
 }
 
+footer{
+    background-color: #000000;
+    height: 10vh;
+}
+
+.profiles-box{
+    display: flex;
+    flex-direction: row;
+    max-width: 340px;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 2vh;
+    list-style: none;
+}
+
+.icon{
+    max-height: 40px;
+}
+
+
 @media screen and (min-width:425px){
     .title-sec2{
         font-size: 48px;
