@@ -13,7 +13,7 @@
     background-size: cover;
 }
 
-.trailer-section{
+.video-section{
     height: 100vh;
     display: flex;
     flex-direction: column-reverse;
@@ -42,7 +42,7 @@
     height: 100%;
 }
 
-.title-sec2{
+.title-video{
     font-family: 'Anton';
     font-style: normal;
     font-weight: normal;
@@ -186,7 +186,7 @@ footer{
 
 
 @media screen and (min-width:425px){
-    .title-sec2{
+    .title-video{
         font-size: 48px;
         margin-left: 5%;
     }
@@ -210,11 +210,11 @@ footer{
         background-size: 90vh;
     }
 
-    .trailer-section{
+    .video-section{
         background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/hand_dark.png?alt=media&token=0c09fb80-cdcf-41f0-9ae2-d1c3e1e36955);
     }
 
-    .title-sec2{
+    .title-video{
         font-size: 80px;
     }
 
@@ -224,7 +224,7 @@ footer{
 }
 
 @media screen and (min-width:1024px){
-    .title-sec2{
+    .title-video{
         font-size: 108px;
     }   
 }
