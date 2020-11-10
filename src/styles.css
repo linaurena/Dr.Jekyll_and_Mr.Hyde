@@ -62,7 +62,6 @@
 }
 
 .synopsis-content{
-    height: 102vh;
     padding-left: 10vw;
     padding-right: 10vw;
 }
@@ -86,6 +85,48 @@
     margin-bottom: 1vh;
     max-width: 650px;
 }
+
+.book-cover{
+    height: 21vh;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/bok-vector.png?alt=media&token=e9a642b0-7dfb-414a-af6e-8f98757daebb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-x: right;
+    
+}
+
+.book-section{
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 8vh;
+}
+
+.title-sec4{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    padding-bottom: 3vh;
+}
+
+.p-book{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 1vh;
+    max-width: 650px;
+}
+
+
+/*https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/man-black.jpg?alt=media&token=1a864a77-26d2-41db-95f0-d6b8459eb7e7
+*/
 
 footer{
     background-color: #000000;
@@ -141,16 +182,14 @@ footer{
     }
 
     .synopsis-content{
-        height: 70vh;
+        max-height: 70vh;
     }
 }
 
 @media screen and (min-width:1024px){
     .title-sec2{
         font-size: 108px;
-    }
-
-    
+    }   
 }
 
 @media screen and (min-width:1040px){
@@ -215,8 +254,32 @@ footer{
     }
 
     .p-synopsis{
+        font-size: 20px;
         max-width: 50vw;
         margin-left: 3vw;
+    }
+
+    .book-cover{
+        display: none;
+    }
+
+    .book-section{
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/cover-book.png?alt=media&token=5b602683-371e-4fc8-805c-e89693cb3bd8);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: contain;
+        margin-top: 5vh;
+    }
+    .title-sec4{
+        font-size: 72px;
+        line-height: 106px;
+        padding-top: 25vh;
+        margin-bottom: 75px;
+    }
+
+    .p-book{
+        font-size: 20px;
+        width: 580px;
     }
 }
 

@@ -37,13 +37,50 @@
             </article>
         </div>
     </section>
+    <section class="book-cover"></section>
+    <section class="book-section">
+        <h2 class="title-sec4">Importancia del libro</h2>
+        <p class="p-book">Novela escrita por Robert Louis Balfour Stevenson. Convirtiéndose en una de las más importantes y vendidas 
+            de su carrera como novelista.
+        </p>  
+        <p class="p-book">
+            Esta obra tien una crítica a la sociedad Victorina puesto la tacha de ser una sociedad de apariencias y muy hipócrita. 
+            Se piensa que gracias a esta novela se infundieron algunas bases para que inspirar a Freud, pionero del psicoanálisis.
+        </p>
+        <p class="p-book">
+            Esta novela tuvo gran influencia en el arte, cautivó tanto en 
+            el género del ocultismo que tuvo varias adaptaciones en el teatro. Un año después de haberse publicado el libro en el año 1887 en la ciudad de Boston se da el primer estreno de esta obra en los teatros. 
+        </p>
+    </section>
     <footer>
         <ul class="profiles-box">
             <li class="link-box"><a class="link" href="https://instagram.com/elsecretodejekyllyhyde?igshid=t5ckf12rb9r8"><img class="icon" src="https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/instagram.png?alt=media&token=86430501-6354-44e0-ba21-d1712a385470" alt="Instagran icon"></a></li>
             <li class="link-box"><a class="link" href="https://www.facebook.com/elsecretodejekyllyhyde/"><img class="icon" src="https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/facebook.png?alt=media&token=065f53b0-8d00-43d1-93ac-218da4349716" alt="Facebook icon"></a></li>
             <li class="link-box"><a class="link" href="https://www.youtube.com/channel/UCDjcG-IwAW4_zeyAUjSMtSw"><img class="icon" src="https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/youtube.png?alt=media&token=5858042c-6845-481a-b8fb-bb7b93446514" alt="Youtube icon"></a></li>
-          </ul>
-    </footer>
-    <script src="main.js"></script>
+        </ul>
+        </footer>
+        <script src="main.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+                apiKey: "AIzaSyCPOIG1qqg_3RSn5wV4SNJRgfHBS9XLz6w",
+                authDomain: "jekyll-y-hyde.firebaseapp.com",
+                databaseURL: "https://jekyll-y-hyde.firebaseio.com",
+                projectId: "jekyll-y-hyde",
+                storageBucket: "jekyll-y-hyde.appspot.com",
+                messagingSenderId: "98815963356",
+                appId: "1:98815963356:web:185c51c878d292a45d4419",
+                measurementId: "G-FEHW9734C5"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
 </body>
 </html>
