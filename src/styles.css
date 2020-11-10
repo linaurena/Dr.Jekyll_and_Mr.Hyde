@@ -124,6 +124,43 @@
     max-width: 650px;
 }
 
+.author-cover{
+    height: 21vh;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/stevenson%20vector.png?alt=media&token=674ccdaf-b673-49a0-96f3-952bf54f129a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-x: right;
+    
+}
+
+.author-section{
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 8vh;
+}
+
+.title-sec5{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    padding-bottom: 3vh;
+}
+
+.p-author{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 1vh;
+    max-width: 650px;
+}
 
 /*https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/man-black.jpg?alt=media&token=1a864a77-26d2-41db-95f0-d6b8459eb7e7
 */
@@ -278,6 +315,29 @@ footer{
     }
 
     .p-book{
+        font-size: 20px;
+        width: 580px;
+    }
+
+    .author-cover{
+        display: none;
+    }
+
+    .author-section{
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/jekyll-y-hyde.appspot.com/o/stevenson%20desktop.png?alt=media&token=177aea4b-511a-4784-878a-5bc9bd8ca2e8);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: contain;
+        margin-top: 5vh;
+    }
+    .title-sec5{
+        font-size: 72px;
+        line-height: 106px;
+        padding-top: 25vh;
+        margin-bottom: 75px;
+    }
+
+    .p-author{
         font-size: 20px;
         width: 580px;
     }
